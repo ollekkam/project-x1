@@ -3,4 +3,4 @@
   become: true
   tasks:
      - name: create acontainer
-       shell: docker run -d --name appala-container2 -p 9000:8080 ollekkam1/valaxy_demo:v3
+       shell: docker run -d --name appala-container3 -p 9000:8080 ollekkam1/valaxy_demo:v3
