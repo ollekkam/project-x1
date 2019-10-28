@@ -1,0 +1,6 @@
+---
+- hosts: all
+  become: true
+  tasks:
+     - name: create acontainer
+       shell: docker run -d --name appala-container ollekkam1/valaxy_demo:v1
